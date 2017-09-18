@@ -1,0 +1,33 @@
+body{
+
+	background: #f6f6f6;
+	max-width: 560px;
+	width: 100%;
+	margin: auto;
+	font-family: arial;
+}
+
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cabecalho h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: 5555;
+}
+
+.cabecalho .seta{
+	height: 16px;
+	margin-left: 10px;
+}
+.cabecalho a{
+	color: #a8a8a8;
+	text-decoration: none;
+	transition: all 0.8s;
+}
+.cabecalho :hover{
+	color: black;
+}
